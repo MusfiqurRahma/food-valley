@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.header {
+    display: flex;
+}
+
+.darkred {
+    color: darkred;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    color: #2e0505e5;
+}
+
+.half-width {
+    color: #464343;
+    width: 60%;
+    margin-left: 50px;
+}
+
+.half-width img {
+    width: 90%;
+
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
