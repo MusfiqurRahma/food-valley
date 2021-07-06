@@ -2,6 +2,26 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+ul {
+    text-align: right;
+    display: block;
+    margin-bottom: 50px;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 0 20px;
+    background-color: rgb(161, 78, 71);
+}
+
+.header {
+    margin-top: 100px;
+}
+
 .flexible {
     display: flex;
 }
@@ -73,6 +93,15 @@ p {
     margin: 20px 40px;
     margin-bottom: 80px;
 
+}
+
+.form {
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
 }
 
 .footer {
