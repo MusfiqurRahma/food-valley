@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-.header {
+.flexible {
     display: flex;
 }
 
@@ -12,6 +12,11 @@ body {
 
 h1 {
     font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
 }
 
 p {
@@ -26,13 +31,44 @@ p {
 
 .half-width img {
     width: 90%;
-
 }
 
-a {
+.button {
     text-decoration: none;
-    background-image: linear-gradient(tomato, red);
-    padding: 10px 20px;
+    background-image: linear-gradient(rgb(241, 58, 26), rgb(110, 26, 26));
+    padding: 10px 30px;
     border-radius: 10px;
     color: white;
+}
+
+.middle-container {
+    background-image: url(7.png);
+    background-position: top;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.half-width-person {
+    width: 45%;
+}
+
+.half-width-person img {
+    width: 55%;
+    margin-left: 100px;
+}
+
+.recipi-item {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.recipie {
+    box-shadow: inset 0px -1px 3px 8px hsla(0, 33%, 93%, 0.884);
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 10%;
+    margin: 20px 40px;
+
 }
